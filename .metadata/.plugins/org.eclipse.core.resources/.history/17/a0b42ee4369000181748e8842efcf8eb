@@ -1,0 +1,12 @@
+package org.bl.docker.test.orgbldockertest;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class OrgBlDockerTestApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(OrgBlDockerTestApplication.class, args);
+	}
+}

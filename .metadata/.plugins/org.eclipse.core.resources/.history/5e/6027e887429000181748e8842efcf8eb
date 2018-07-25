@@ -1,0 +1,36 @@
+package org.bl.docker.test.orgbldockertest;
+
+import java.util.Scanner;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class OrgBlDockerTestApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(OrgBlDockerTestApplication.class, args);
+		Scanner scanner=new Scanner(System.in);
+		String day=scanner.nextLine();
+		switch(day){
+		case "mon":
+			System.out.println("math");
+			break;
+		case "tue":
+			System.out.println("tai-kwan-do");
+			break;
+		case "wed":
+			System.out.println("tennis");
+			break;
+		case "thu":
+			System.out.println("reading");
+			break;
+		case "fri":
+			System.out.println("piano");
+			break;
+		case "sat":
+			System.out.println("mcs");
+			break;
+		}
+	}
+}
